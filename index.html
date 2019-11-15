@@ -203,7 +203,7 @@
             }
             100%{
                 opacity: 0;
-                left: -50px;
+                left: 50px;
             }
         }
         .ad300x250 .slide2-image1{
@@ -284,7 +284,7 @@
             opacity: 0;
             line-height: 30px;
             font-style: italic;
-            animation: slide3-text1 1s ease;
+            animation: slide2-text1 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -311,7 +311,7 @@
             opacity: 0;
             line-height: 30px;
             font-style: italic;
-            animation: slide3-text2 1s ease;
+            animation: slide2-text2 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -330,7 +330,7 @@
             width: 180px;
             top: 65px;
             opacity: 0;
-            animation: slide3-image1 1s ease;
+            animation: slide2-image1 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -356,7 +356,7 @@
             opacity: 0;
             line-height: 30px;
             font-style: italic;
-            animation: slide3-image2 1s ease;
+            animation: slide2-image2 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -372,7 +372,7 @@
             opacity: 0;
             line-height: 30px;
             font-style: italic;
-            animation: slide3-image2 1s ease;
+            animation: slide2-image2 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -386,16 +386,46 @@
             }
         }
         
+        
+        .ad300x250 .button{
+            position: absolute;
+            color: #fff;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 10px 20px;
+            margin: 0;
+            width: 200px;
+            text-align: center;
+            bottom: 40px;
+            left: 30px;
+            opacity: 0;
+            background: #213e80;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 10.5s;
+            border-radius: 5px;
+            box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+        }
+        @keyframes button{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        } 
 
         .ad300x250 .copyright{
             position: absolute;
             bottom: 2px;right: 5px;
             margin: 0;
             font-size: 10px;
-            color: #fff;
+            color: #000;
             animation: copyright 1s ease;
             animation-fill-mode: forwards;
-            animation-delay: 11s;
+            animation-delay: 11.5s;
             opacity: 0;
         }
         @keyframes copyright{
@@ -424,19 +454,20 @@
               <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
               <img src="image/8-line.jpg" alt="" class="slide2-image1">
               <div class="texts">
-                  <P class="slide2-text1">8 line items</P>
+                  <P class="slide2-text1">8 line items +/-</P>
                   <P class="slide2-text2">“Charlie” Roofed</P>
               </div>
           </div>
           <div class="slide3">
             <img src="image/16-line.jpg" alt="" class="slide3-image1">
              <div class="text">
-              <div class="slide3-text1">16 line items</div>
+              <div class="slide3-text1">16 line items +</div>
               <div class="slide3-text2">Registered Roof</div>
              </div>
             <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
             <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
           </div>
+          <div class="button">Schedule a free roof inspection</div>
           <p class="copyright">&copy; 2019 CRLLC #1331061</p>
        </div>
    </a>
