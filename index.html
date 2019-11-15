@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -238,14 +238,8 @@
             position: absolute;
             right: -50px;
             width: 110px;
-            top: 50px;
-            font-family: 'Domine', serif;
-            font-size: 30px;
-            padding: 20px;
-            margin: 0;
+            top: 60px;
             opacity: 0;
-            line-height: 30px;
-            font-style: italic;
             animation: slide2-image2 3.5s ease;
             animation-fill-mode: forwards;
             animation-delay: 4.5s;
@@ -257,11 +251,11 @@
             }
             28.57%{
                 opacity: 1;
-                right: -15px;
+                right: 5px;
             }
             71.428%{
                 opacity: 1;
-                right: -15px;
+                right: 5px;
             }
             100%{
                 opacity: 0;
@@ -288,15 +282,6 @@
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
-        @keyframes slide3-text1{
-            0%{
-                opacity: 0;
-            }
-            100%{
-                opacity: 1;
-                left: 0px;
-            }
-        }
         .ad300x250 .slide3-text2{
             position: absolute;
             bottom: 0px;
@@ -315,15 +300,6 @@
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
-        @keyframes slide3-text2{
-            0%{
-                opacity: 0;
-            }
-            100%{
-                opacity: 1;
-                left: 0px;
-            }
-        }
         .ad300x250 .slide3-image1{
             position: absolute;
             left: -50px;
@@ -334,45 +310,13 @@
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
-        @keyframes slide3-image1{
-            0%{
-                opacity: 0;
-                left: -50px;
-            }
-            100%{
-                opacity: .8;
-                left: 10px;
-            }
-        }
         .ad300x250 .slide3-image2{
             position: absolute;
             right: -50px;
             width: 100px;
-            top: 25px;
-            font-family: 'Domine', serif;
-            font-size: 30px;
-            padding: 20px;
-            margin: 0;
+            top: 45px;
             opacity: 0;
-            line-height: 30px;
-            font-style: italic;
-            animation: slide2-image2 3.5s ease;
-            animation-fill-mode: forwards;
-            animation-delay: 8s;
-        }
-        .ad300x250 .slide3-image3{
-            position: absolute;
-            right: -50px;
-            width: 100px;
-            top: 85px;
-            font-family: 'Domine', serif;
-            font-size: 30px;
-            padding: 20px;
-            margin: 0;
-            opacity: 0;
-            line-height: 30px;
-            font-style: italic;
-            animation: slide2-image2 3.5s ease;
+            animation: slide3-image2 4s ease;
             animation-fill-mode: forwards;
             animation-delay: 8s;
         }
@@ -380,12 +324,33 @@
             0%{
                 opacity: 0;
             }
+            25%{
+                opacity: 1;
+                right: 5px;
+            }
+            62.5%{
+                opacity: 1;
+                right: 5px;
+                width: 100px;
+                top: 45px;
+            }
             100%{
                 opacity: 1;
-                right: -15px;
+                right: 50px;
+                width: 200px;
+                top: -15px;
             }
         }
-        
+        .ad300x250 .slide3-image3{
+            position: absolute;
+            right: -50px;
+            width: 100px;
+            top: 100px;
+            opacity: 0;
+            animation: slide2-image2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
         
         .ad300x250 .button{
             position: absolute;
@@ -437,6 +402,1303 @@
             }
         }
        
+        
+        
+        
+        
+        
+        .ad300x600{
+            width: 300px;
+            height: 600px;
+            background: #999;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad300x600 .slide1{
+            background-image: linear-gradient(rgba(0,0,0,.7) ,rgba(0,0,0,.7)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: auto 100%;
+            transform: scale(1.5);
+            background-position:  center;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .ad300x600 .slide1-text1{
+            position: absolute;
+            top: 150px;
+            color: #fff;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 35px;
+            padding: 20px;
+            margin: 0;
+            left: -50px;
+            opacity: 0;
+            font-style: italic;
+            animation: slide1-text1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                left: 0px;
+            }
+        }
+        .ad300x600 .slide1-text2{
+            position: absolute;
+            opacity: 0;
+            color: #fff;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-style: italic;
+            font-size: 40px;
+            line-height: 40px;
+            padding: 20px;
+            margin: 0;
+            animation: ad300x600-slide1-text2 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes ad300x600-slide1-text2{
+            0%{
+                opacity: 0;
+                bottom: 100px;
+            }
+            100%{
+                opacity: 1;
+                bottom: 150px;
+            }
+        }
+        .ad300x600 .slide1-image{
+            position: absolute;
+            opacity: 0;
+            width: 160px;
+            right:-35px;
+            top: 335px;
+            animation: slide1-image 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-image{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                right:15px;
+            }
+        }
+        .ad300x600 .slide2{
+            background-image: linear-gradient(rgba(255,255,255,.85) ,rgba(255,255,255,.85)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            background-size: auto 100%;
+            transform: scale(1.5);
+            background-position:  center;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3.5s;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        
+        .ad300x600 .slide2-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 10px;
+            margin: 0;
+            opacity: 0;
+            top: 90px;
+            line-height: 30px;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-text1{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad300x600 .slide2-text2{
+            position: absolute;
+            bottom: 90px;
+            left: 50px;
+            color: #aa1f23;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 32px;
+            font-weight: 700;
+            padding: 20px;
+            margin: 0;
+            opacity: 0;
+            line-height: 30px;
+            animation: slide2-text2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-text2{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: 50px;
+            }
+        }
+        .ad300x600 .slide2-image1{
+            position: absolute;
+            left: -50px;
+            width: 280px;
+            top: 310px;
+            opacity: 0;
+            animation: slide2-image1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-image1{
+            0%{
+                opacity: 0;
+                left: -50px;
+            }
+            28.57%{
+                opacity: .8;
+                left: 10px;
+            }
+            71.428%{
+                opacity: .8;
+                left: 10px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad300x600 .slide2-image2{
+            position: absolute;
+            right: -50px;
+            width: 110px;
+            top: 165px;
+            opacity: 0;
+            animation: slide2-image2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+            transform: rotate(10deg);
+        }
+        @keyframes slide2-image2{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                right: 5px;
+            }
+            71.428%{
+                opacity: 1;
+                right: 5px;
+            }
+            100%{
+                opacity: 0;
+                right: -50px;
+            }
+        }
+        
+        
+        
+        .ad300x600 .slide3-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 10px;
+            margin: 0;
+            opacity: 0;
+            top: 90px;
+            line-height: 30px;
+            font-style: italic;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad300x600 .slide3-text2{
+            position: absolute;
+            bottom: 0px;
+            left: 50px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 32px;
+            padding: 20px;
+            margin: 0;
+            font-weight: 700;
+            opacity: 0;
+            bottom: 90px;
+            line-height: 30px;
+            font-style: italic;
+            animation: slide2-text2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad300x600 .slide3-image1{
+            position: absolute;
+            left: -50px;
+            width: 280px;
+            top: 165px;
+            opacity: 0;
+            animation: slide2-image1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad300x600 .slide3-image2{
+            position: absolute;
+            right: -50px;
+            width: 120px;
+            top: 360px;
+            opacity: 0;
+            animation: ad300x600-slide3-image2 4s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad300x600-slide3-image2{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 1;
+                right: 30px;
+            }
+            62.5%{
+                opacity: 1;
+                right: 30px;
+                width: 120px;
+                top: 365px;
+            }
+            100%{
+                opacity: 1;
+                right: 50px;
+                width: 200px;
+                top: 120px;
+            }
+        }
+        .ad300x600 .slide3-image3{
+            position: absolute;
+            right: 100px;
+            width: 100px;
+            top: 360px;
+            opacity: 0;
+            animation: ad300x600-slide3-image3 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad300x600-slide3-image3{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                right: 180px;
+            }
+            71.428%{
+                opacity: 1;
+                right: 180px;
+            }
+            100%{
+                opacity: 0;
+                right: 100px;
+            }
+        }
+        
+        
+        .ad300x600 .button{
+            position: absolute;
+            color: #fff;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 10px 20px;
+            margin: 0;
+            width: 200px;
+            text-align: center;
+            bottom: 140px;
+            left: 30px;
+            opacity: 0;
+            background: #213e80;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 11s;
+            border-radius: 5px;
+            box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+        }
+        @keyframes button{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        } 
+
+        .ad300x600 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size: 10px;
+            color: #000;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 12s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        .ad160x600{
+            width: 160px;
+            height: 600px;
+            background: #999;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad160x600 .slide1{
+            background-image: linear-gradient(rgba(0,0,0,.7) ,rgba(0,0,0,.7)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: auto 100%;
+            transform: scale(1.5);
+            background-position:  center;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .ad160x600 .slide1-text1{
+            position: absolute;
+            top: 150px;
+            color: #fff;
+            width: 140px;
+            font-family: 'Domine', serif;
+            font-size: 30px;
+            padding: 10px;
+            margin: 0;
+            left: -50px;
+            opacity: 0;
+            font-style: italic;
+            animation: slide1-text1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                left: 0px;
+            }
+        }
+        .ad160x600 .slide1-text2{
+            position: absolute;
+            opacity: 0;
+            color: #fff;
+            width: 160px;
+            font-family: 'Domine', serif;
+            font-style: italic;
+            font-size: 24.5px;
+            line-height: 35px;
+            padding: 1px;
+            margin: 0;
+            animation: ad300x600-slide1-text2 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes ad300x600-slide1-text2{
+            0%{
+                opacity: 0;
+                bottom: 100px;
+            }
+            100%{
+                opacity: 1;
+                bottom: 150px;
+            }
+        }
+        .ad160x600 .slide1-image{
+            position: absolute;
+            opacity: 0;
+            width: 130px;
+            right:-35px;
+            top: 335px;
+            animation: slide1-image 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-image{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                right:15px;
+            }
+        }
+        .ad160x600 .slide2{
+            background-image: linear-gradient(rgba(255,255,255,.85) ,rgba(255,255,255,.85)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            background-size: auto 100%;
+            transform: scale(1.5);
+            background-position:  center;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3.5s;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        
+        .ad160x600 .slide2-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 160px;
+            font-family: 'Domine', serif;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 5px;
+            margin: 0;
+            opacity: 0;
+            top: 50px;
+            line-height: 40px;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-text1{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad160x600 .slide2-text2{
+            position: absolute;
+            bottom: 50px;
+            left: 50px;
+            color: #aa1f23;
+            width: 150px;
+            text-align: center;
+            font-family: 'Domine', serif;
+            font-size: 32px;
+            font-weight: 700;
+            padding: 20px 5px;
+            margin: 0;
+            opacity: 0;
+            line-height: 40px;
+            animation: slide2-text2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-text2{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: 50px;
+            }
+        }
+        .ad160x600 .slide2-image1{
+            position: absolute;
+            left: -50px;
+            width: 156px;
+            top: 340px;
+            opacity: 0;
+            animation: ad160x600-slide2-image1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes ad160x600-slide2-image1{
+            0%{
+                opacity: 0;
+                left: -50px;
+            }
+            28.57%{
+                opacity: .8;
+                left: 2px;
+            }
+            71.428%{
+                opacity: .8;
+                left: 2px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad160x600 .slide2-image2{
+            position: absolute;
+            right: -50px;
+            width: 110px;
+            top: 160px;
+            opacity: 0;
+            animation: slide2-image2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+            transform: rotate(10deg);
+        }
+        @keyframes slide2-image2{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                right: 5px;
+            }
+            71.428%{
+                opacity: 1;
+                right: 5px;
+            }
+            100%{
+                opacity: 0;
+                right: -50px;
+            }
+        }
+        
+        
+        
+        .ad160x600 .slide3-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 160px;
+            font-family: 'Domine', serif;
+            font-size: 36px;
+            font-weight: 700;
+            padding: 20px 10px;
+            margin: 0;
+            opacity: 0;
+            top: 50px;
+            line-height: 40px;
+            font-style: italic;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad160x600 .slide3-text2{
+            position: absolute;
+            bottom: 0px;
+            left: 50px;
+            color: #223e81;
+            width: 160px;
+            font-family: 'Domine', serif;
+            font-size: 28px;
+            padding: 20px 0px;
+            margin: 0;
+            font-weight: 700;
+            opacity: 0;
+            bottom: 50px;
+            line-height: 40px;
+            font-style: italic;
+            text-align: center;
+            animation: slide2-text2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad160x600 .slide3-image1{
+            position: absolute;
+            left: -50px;
+            width: 156px;
+            top: 165px;
+            opacity: 0;
+            animation: ad160x600-slide2-image1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad160x600-slide3-image1{
+            0%{
+                opacity: 0;
+                left: -50px;
+            }
+            28.57%{
+                opacity: .8;
+                left: 2px;
+            }
+            71.428%{
+                opacity: .8;
+                left: 2px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad160x600 .slide3-image2{
+            position: absolute;
+            right: -50px;
+            width: 120px;
+            top: 355px;
+            opacity: 0;
+            animation: ad160x600-slide3-image2 4s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad160x600-slide3-image2{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 1;
+                right: 20px;
+            }
+            62.5%{
+                opacity: 1;
+                right: 20px;
+                width: 120px;
+                top: 355px;
+            }
+            100%{
+                opacity: 1;
+                right: 0px;
+                width: 160px;
+                top: 100px;
+            }
+        }
+        .ad160x600 .slide3-image3{
+            position: absolute;
+            right: -50px;
+            width: 120px;
+            top: 270px;
+            opacity: 0;
+            animation: ad160x600-slide3-image3 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad160x600-slide3-image3{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                right: 20px;
+            }
+            71.428%{
+                opacity: 1;
+                right: 20px;
+            }
+            100%{
+                opacity: 0;
+                right: -50px;
+            }
+        }
+        
+        
+        .ad160x600 .button{
+            position: absolute;
+            color: #fff;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 10px 0;
+            margin: 0;
+            width: 156px;
+            text-align: center;
+            bottom: 140px;
+            left: 2px;
+            opacity: 0;
+            background: #213e80;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 11s;
+            border-radius: 5px;
+            box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+        }
+        @keyframes button{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        } 
+
+        .ad160x600 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size: 10px;
+            color: #000;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 12s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+        
+        
+        
+        
+        
+        
+        
+        .ad300x50{
+            width: 300px;
+            height: 50px;
+            background: #999;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #000;
+        }
+        .ad300x50 .slide1{
+            background-image: linear-gradient(rgba(0,0,0,.7) ,rgba(0,0,0,.7)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-size: 100% auto ;
+            transform: scale(1.5);
+            background-position:  center 62%;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .ad300x50 .slide1-text1{
+            position: absolute;
+            top: -5px;
+            color: #fff;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 22px;
+            padding: 5px;
+            margin: 0;
+            left: -50px;
+            opacity: 0;
+            font-style: italic;
+            animation: slide1-text1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                left: 0px;
+            }
+        }
+        .ad300x50 .slide1-text2{
+            position: absolute;
+            bottom: -50px;
+            right: 0px;
+            opacity: 0;
+            color: #fff;
+            width: 170px;
+            font-family: 'Domine', serif;
+            font-style: italic;
+            font-size: 22px;
+            line-height: 20px;
+            padding: 0px;
+            margin: 0;
+            animation: slide1-text2 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes slide1-text2{
+            0%{
+                opacity: 0;
+                bottom: -50px;
+            }
+            100%{
+                opacity: 1;
+                bottom: 5px;
+            }
+        }
+        .ad300x50 .slide1-image{
+            position: absolute;
+            opacity: 0;
+            width: 80px;
+            right:-20px;
+            top: 0px;
+            animation: ad300x50-slide1-image 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 1s;
+        }
+        @keyframes ad300x50-slide1-image{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                right:30px;
+            }
+        }
+        .ad300x50 .slide2{
+            background-image: linear-gradient(rgba(255,255,255,.85) ,rgba(255,255,255,.85)),url(image/Roof-replacement.jpg);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            background-size: 100% auto;
+            transform: scale(1.5);
+            background-position:  center 62%;
+            background-repeat: no-repeat;
+            animation: slide1 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 3.5s;
+        }
+        
+        @keyframes slide1{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        
+        .ad300x50 .slide2-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 5px 15px;
+            margin: 0;
+            opacity: 0;
+            line-height: 16px;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes slide2-text1{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad300x50 .slide2-text2{
+            position: absolute;
+            bottom: 2px;
+            left: -50px;
+            color: #aa1f23;
+            width: 135px;
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 5px;
+            margin: 0;
+            opacity: 0;
+            line-height: 10px;
+            animation: ad300x50-slide2-text2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes ad300x50-slide2-text2{
+            0%{
+                opacity: 0;
+            }
+            28.57%{
+                opacity: 1;
+                left: 0px;
+            }
+            71.428%{
+                opacity: 1;
+                left: 0px;
+            }
+            100%{
+                opacity: 0;
+                left: -50px;
+            }
+        }
+        .ad300x50 .slide2-image1{
+            position: absolute;
+            right: 5px;
+            width: 110px;
+            top: 3.5px;
+            opacity: 0;
+            animation: ad300x50-slide2-image1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+        }
+        @keyframes ad300x50-slide2-image1{
+            0%{
+                opacity: 0;
+                right: -50px;
+            }
+            28.57%{
+                opacity: .8;
+                right: 5px;
+            }
+            71.428%{
+                opacity: .8;
+                right: 5px;
+            }
+            100%{
+                opacity: 0;
+                right: -50px;
+            }
+        }
+        .ad300x50 .slide2-image2{
+            position: absolute;
+            right: 115px;
+            width: 30px;
+            top: 10px;
+            opacity: 0;
+            animation: ad300x50-slide2-image2 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 4.5s;
+            transform: rotateY(180deg) rotateZ(30deg);
+        }
+        @keyframes ad300x50-slide2-image2{
+            0%{
+                opacity: 0;
+                top: 60px;
+            }
+            28.57%{
+                opacity: 1;
+                top: 10px;
+            }
+            71.428%{
+                opacity: 1;
+                top: 10px;
+            }
+            100%{
+                opacity: 0;
+                top: 60px;
+            }
+        }
+        
+        
+        
+        .ad300x50 .slide3-text1{
+            position: absolute;
+            left: -50px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 5px 15px;
+            line-height: 16px;
+            margin: 0;
+            font-style: italic;
+            opacity: 0;
+            animation: slide2-text1 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad300x50 .slide3-text2{
+            position: absolute;
+            bottom: 0px;
+            left: -50px;
+            left: 0px;
+            color: #223e81;
+            width: 270px;
+            font-family: 'Domine', serif;
+            font-size: 16px;
+            padding: 5px;
+            margin: 0;
+            font-weight: 700;
+            line-height: 16px;
+            font-style: italic;
+/*            opacity: 0;*/
+/*            animation: slide2-text1 3.5s ease;*/
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        .ad300x50 .slide3-image1{
+            position: absolute;
+            left: 140px;
+            width: 70px;
+            top: 1px;
+/*
+            opacity: 0;
+            animation: ad300x50-slide3-image1 3.5s ease;
+*/
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad300x50-slide3-image1{
+            0%{
+                opacity: 0;
+                top: 50px;
+            }
+            28.57%{
+                opacity: 1;
+                top: 1px;
+            }
+            71.428%{
+                opacity: 1;
+                top: 1px;
+            }
+            100%{
+                opacity: 0;
+                top: 50px;
+            }
+        }
+        .ad300x50 .slide3-image2{
+            position: absolute;
+            right: -50px;
+            width: 50px;
+            top: 5px;
+            opacity: 0;
+            animation: ad300x50-slide3-image2 4s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad300x50-slide3-image2{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 1;
+                right: 0px;
+            }
+            62.5%{
+                opacity: 1;
+                right: 0px;
+                width: 50px;
+                top: 5px;
+            }
+            100%{
+                opacity: 1;
+                right: 50px;
+                width: 100px;
+                top: -15px;
+            }
+        }
+        .ad300x50 .slide3-image3{
+            position: absolute;
+            right: -5px;
+            width: 50px;
+            top: 5px;
+            opacity: 0;
+            animation: ad300x50-slide3-image3 3.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 8s;
+        }
+        @keyframes ad300x50-slide3-image3{
+            0%{
+                opacity: 0;
+            }
+            25%{
+                opacity: 1;
+                right: 45px;
+            }
+            62.5%{
+                opacity: 1;
+                right: 45px;
+            }
+            100%{
+                opacity: 0;
+                right: -5px;
+            }
+        }
+        
+        .ad300x250 .button{
+            position: absolute;
+            color: #fff;
+            font-family: 'Domine', serif;
+            font-size: 25px;
+            padding: 10px 20px;
+            margin: 0;
+            width: 200px;
+            text-align: center;
+            bottom: 40px;
+            left: 30px;
+            opacity: 0;
+            background: #213e80;
+            animation: button 1.5s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 11s;
+            border-radius: 5px;
+            box-shadow: 2px 3px 5px rgba(0,0,0,.6);
+        }
+        @keyframes button{
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+                transform: scale(1);
+            }
+        } 
+
+        .ad300x250 .copyright{
+            position: absolute;
+            bottom: 2px;right: 5px;
+            margin: 0;
+            font-size: 10px;
+            color: #000;
+            animation: copyright 1s ease;
+            animation-fill-mode: forwards;
+            animation-delay: 12s;
+            opacity: 0;
+        }
+        @keyframes copyright{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+       
+        
+       
                 
         
     </style>
@@ -472,7 +1734,199 @@
        </div>
    </a>
    <!-- ad 300x250 end -->
-    <br>
+   <br>
+     <br>
+   <!-- ad 300x600 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad300x600">
+        <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 300x600 end -->
+     <br>
+     <br>
+   <!-- ad 160x600 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad160x600">
+         <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 160x600 end -->
+     <br>
+     <br>
+   <!-- ad 300x50 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad300x50">
+          <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 300x50 end -->
+     <br>
+     <br>
+   <!-- ad 320x50 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad320x50">
+          <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 320x50 end -->
+     <br>
+     <br>
+   <!-- ad 728x90 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad728x90">
+         <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>
+       </div>
+   </a>
+   <!-- ad 728x90 end -->
+     <br>
+     <br>
+   <!-- ad 970x90 start -->
+   <a href="https://callowayroofingfl.com/?utm_source=geo7-19-19&utm_medium=mobile&utm_campaign=OcWgWdmr" class="ad-wrap">
+       <div class="ad970x90">
+          <div class="slide1">
+              <P class="slide1-text1">2 Types of</P>
+              <P class="slide1-text2">Roof Replacement</P>
+              <img src="image/White-Roof.png" alt="" class="slide1-image">
+          </div>
+          <div class="slide2">
+              <img src="image/Yellow-Arrow.png" alt="" class="slide2-image2">
+              <img src="image/8-line.jpg" alt="" class="slide2-image1">
+              <div class="texts">
+                  <P class="slide2-text1">8 line items +/-</P>
+                  <P class="slide2-text2">“Charlie” Roofed</P>
+              </div>
+          </div>
+          <div class="slide3">
+            <img src="image/16-line.jpg" alt="" class="slide3-image1">
+             <div class="text">
+              <div class="slide3-text1">16 line items +</div>
+              <div class="slide3-text2">Registered Roof</div>
+             </div>
+            <img src="image/Ey5uhwqG.png" alt="" class="slide3-image2">
+            <img src="image/zGANP_Sl.png" alt="" class="slide3-image3">
+          </div>
+          <div class="button">Schedule a free roof inspection</div>
+          <p class="copyright">&copy; 2019 CRLLC #1331061</p>copyright">&copy; 2019 CRLLC #1331061</p>
+          </div>
+       </div>
+   </a>
+   <!-- ad 970x90 end -->
    
 </body>
 </html>
